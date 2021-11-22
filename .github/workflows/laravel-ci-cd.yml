@@ -68,7 +68,7 @@ jobs:
         uses: shivammathur/setup-php@master
         with:
           php-version: 7.4
-          extension-csv: mbstring, bcmath, sockets, amqp
+          extension-csv: mbstring, bcmath, sockets
       - name: Copy .env
         run: php -r "file_exists('.env') || copy('.env.example', '.env');"
       - name: Composer install
