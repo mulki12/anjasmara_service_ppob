@@ -14,7 +14,7 @@ jobs:
         env:
           MYSQL_CONNECTION: mysql
           MYSQL_ALLOW_EMPTY_PASSWORD: yes
-          MYSQL_DATABASE: anjasmara_service_general
+          MYSQL_DATABASE: anjasmara_service_ppobs
           MYSQL_USERNAME: root
           MYSQL_PASSWORD: anjas123
         ports:
